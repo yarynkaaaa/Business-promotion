@@ -1,0 +1,235 @@
+body {
+    /* стиль шрифту залежить від макету */
+    font-family: "Poppins", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+ul,
+ol {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+.container {
+    width: 1150px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+/* ---------------Header----------------- */
+
+.header {
+}
+.header-container {
+    display: flex;
+    align-items: center;
+}
+.navigation {
+    display: flex;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0.93;
+    color: #173a56;
+    margin-right: 237px;
+    gap: 16px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-list-item {
+}
+
+.nav-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #22343d;
+    padding: 26px 0;
+    display: inline-block;
+}
+.current {
+    font-weight: 600;
+}
+.list-btn {
+    display: flex;
+    margin-left: auto;
+    gap: 21px;
+}
+
+.btn-item {
+}
+
+.header-btn {
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+}
+
+.btn-in {
+    border: 1px solid #bcd0e5;
+    min-width: 105px;
+    height: 42px;
+    color: #173a56;
+}
+
+.btn-up {
+    min-width: 113px;
+    height: 42px;
+    background-color: #02897a;
+    color: #fff;
+}
+
+/* -------------Hero--------------------- */
+
+.hero {
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-text-wrap {
+    max-width: 465px;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.5;
+    color: #22343d;
+    margin-bottom: 18px;
+    max-width: 373px;
+}
+
+.hero-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.55;
+    color: #22343d;
+    margin-bottom: 45px;
+}
+
+.hero-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero-list-item {
+}
+
+.hero-btn {
+    font-size: 16px;
+    border-radius: 4px;
+    text-align: center;
+}
+.get-btn {
+    font-weight: 700;
+    min-width: 178px;
+    height: 53px;
+    color: #fff;
+    background-color: #02897a;
+}
+.watch-btn {
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #02897a;
+    min-width: 164px;
+    height: 23px;
+}
+
+.hero-image {
+}
+
+/* -----------------------PRODUCTS-------------------- */
+
+.product {
+    padding: 50px 0;
+}
+.product-container {
+}
+
+.product-title {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #22343d;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    max-width: 535px;
+}
+
+.product-list {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.product-item {
+    width: calc((100% - 90px) / 4);
+    height: 204px;
+}
+
+.product-icon {
+    margin-bottom: 26px;
+}
+
+.product-subtitle {
+font-weight: 600;
+    font-size: 22px;
+    color: #22343d;
+    margin-bottom: 13px;
+}
+
+.product-description {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.62;
+        color: #22343d;
+}
+
+.product-btn {
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 4px;
+        min-width: 175px;
+        height: 53px;
+        color: #fff;
+        background-color: #02897a;
+        display: block;
+        margin: 0 auto;
+}
