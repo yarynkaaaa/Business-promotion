@@ -169,8 +169,16 @@ button {
     color: #02897a;
     min-width: 164px;
     height: 23px;
+    position: relative;
 }
-
+.watch-btn::before{
+    content: ' ';
+    width: 16px;
+    height: 18px;
+    position: absolute;
+    background-image: url(../images/watch-before.svg);
+    left: -8px;
+}
 .hero-image {
 }
 
