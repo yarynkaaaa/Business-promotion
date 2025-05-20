@@ -171,8 +171,8 @@ button {
     height: 23px;
     position: relative;
 }
-.watch-btn::before{
-    content: ' ';
+.watch-btn::before {
+    content: " ";
     width: 16px;
     height: 18px;
     position: absolute;
@@ -185,7 +185,8 @@ button {
 /* -----------------------PRODUCTS-------------------- */
 
 .product {
-    padding: 50px 0;
+    padding-top: 50px;
+    padding-bottom: 25px;
 }
 .product-container {
 }
@@ -265,6 +266,8 @@ button {
 }
 /* -------------MANAGMENT---------------- */
 .managment {
+    padding-top: 25px;
+    padding-bottom: 50px;
 }
 
 .managment-container {
@@ -309,4 +312,89 @@ button {
 }
 
 .managment-image {
+}
+/* ------------------SUPPORT------------------- */
+.support {
+    padding: 50px 0;
+}
+
+.support-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.support-image {
+    /* display: block;
+    max-width: 100%;
+    height: auto; */
+}
+
+.support-text {
+    max-width: 450px;
+}
+
+.support-head-text {
+    font-weight: 600;
+    color: #22343d;
+    margin-bottom: 8px;
+}
+
+.support-title {
+    font-weight: 700;
+    font-size: 32px;
+    color: #22343d;
+    margin-bottom: 25px;
+}
+
+.support-descrp {
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.625;
+    color: #22343d;
+    margin-bottom: 30px;
+}
+
+.support-list {
+}
+
+.support-item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.support-card {
+    width: 17px;
+    height: 12px;
+}
+.support-icon-wrapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2.92px solid #fff;
+    border-radius: 14px;
+    width: 35px;
+    height: 35px;
+    fill:#FFFFFF;
+}
+.first-support-icon-wrapp {
+    background: #f90;
+}
+.second-support-icon-wrapp {
+    background: #f03e3d;
+}
+.third-support-icon-wrapp {
+    background: #4d8dff;
+}
+.support-item-descrp {
+        max-width: 385px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.625;
+    color: #22343d;
+}
+.support-item:not(:last-child) {
+    margin-bottom: 25px;
 }
